@@ -3,15 +3,15 @@
  * Plugin Name: Woocommerce Order Signature
  * Plugin URI: https://dharmisoft.com/
  * Description: This plugin allows you to add signature field in the woocommerce checkout page where customer can signature on checkout page and also admin can see the signature image in backend order detail page. Also you can add signature image in various emails.
- * Version: 1.0.4
- * Author: Serveonetech
+ * Version: 1.0.0
+ * Author: Dipendra Pancholi
  * Author URI: https://profiles.wordpress.org/dipendrapancholi/
  * Text Domain: wooos
  * Domain Path: languages
  * 
  * @package Woocommerce Order Signature
  * @category Core
- * @author Serveonetech
+ * @author Dipendra Pancholi
  */
 
 // Exit if accessed directly
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * @since 1.0.0
  */
 if( !defined( 'WOO_OS_VERSION' ) ) {
-	define( 'WOO_OS_VERSION', '1.0.4' );// Plugin Version
+	define( 'WOO_OS_VERSION', '1.0.0' );// Plugin Version
 }
 if( !defined( 'WOO_OS_DIR' ) ) {
 	define( 'WOO_OS_DIR', dirname( __FILE__ ) );// Plugin dir
